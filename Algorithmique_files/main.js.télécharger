@@ -1,0 +1,83 @@
+/*----------------------Les commentaires-------------------------*/
+
+
+// Un commentaire en Javascript
+
+/* 
+Un commentaire multiligne en Javascript 
+*/
+
+
+
+/*----------------------Affichage-----------------------------*/
+
+//Afficher des informations dans la console de debbugage du navigateur 
+console.log('Hello, world')
+
+
+/*--------------------Les variables-------------------------------*/
+// Declaration d'un variable 
+let uneVariable; 
+
+// Affectation d'une variable 
+uneVariable = 'Je suis une variable!';
+
+console.log(uneVariable)
+
+//Les 2 se font généralement en meme temp
+//Les variables sont sensible  à la casse
+
+let hello world = 'Hello, world!';
+console.log(helloworld)
+
+
+uneVariable = 'Je suis une variable!';
+console.log(helloworld);
+
+
+//Les diffèrents types de variables
+let messages = 'un message';
+let number = 20;
+let decimal = 20.5; 
+let boolean = true;
+let boolean2 = false; 
+
+
+//Les opération arithmétiques (+; -; *; /)
+// Déclarer 3 varables sum, number1, number2
+//Affecter le nombre 10 à number1
+//Affecter le nombre 20 à number2
+//Affecter le sum l'opération de multiplication des 2 variables précédentes 
+
+//Correction du cas pratique
+
+let sum;
+let number1 = 10
+let number2 = 20
+sum = numer1 * number2
+console.log(sum); 
+
+
+
+
+/*---------------------La concatenation--------------*/
+let firstName = 'Issa';
+let lastName = 'KONTE';
+
+
+//  
+console.log("Je m'appelle" + firstName + lastName); 
+
+// Déclarer une variable city, afficher le message j'adore vivre à <city>.
+
+let city = 'PARIS'
+City = "PARIS"
+City = `PARIS`
+
+
+console.log("J'adore vivre à " + city);
+console.log('J\'adore vivre à ' + city);
+
+// Modifier le mesage pour afficher j'adore vivre à <city> et je m'appelle <firstNAme> <lastName>
+
+console.log('j'adore vivre à ${city} et je m'appelle ${firsName} ${lastName})
